@@ -1,0 +1,14 @@
+{
+  "name": "@textbook/stryker-mocha-bug",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "mutate": "stryker run",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^10.0.0",
+    "@stryker-mutator/mocha-runner": "^10.0.0",
+    "mocha": "^12.0.3"
+  }
+}
